@@ -1,0 +1,199 @@
+baseURL: "https://bancada.gil.is/"
+title: Fora da Bancada
+paginate: 5
+theme: PaperMod
+
+defaultContentLanguage: pt
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+# googleAnalytics: UA-123-45
+
+minify:
+    disableXML: true
+    minifyOutput: true
+
+languages:
+    pt:
+        languageName: ":pt:"
+        languageAltTitle: European Portuguese
+        weight: 1
+        menu:
+            main:
+                - name: Pesquisa
+                  url: search/
+                  weight: 10
+                - name: Categorias
+                  url: categories/
+                  weight: 10
+                - name: Etiquetas
+                  url: tags/
+                  weight: 10
+                - name: Séries
+                  url: series/
+                  weight: 10
+        label:
+            text: fora da bancada
+            icon: "/img/logo.png"
+            iconHeight: 35          
+
+    en:
+        languageName: ":gb:"
+        languageAltTitle: English
+        weight: 2
+        title: Out of the Bench
+        homeInfoParams:
+            Title: "Out of the Bench"
+            Content: From the Bench to the Web
+        menu:
+            main:
+                - name: Archive
+                  url: archives/
+                  weight: 5
+                - name: Tags
+                  url: tags
+                  weight: 10
+                - name: Categories
+                  url: categories
+                  weight: 10
+                - name: Series
+                  url: series
+                  weight: 10
+        label:
+            text: out of the bench
+            icon: "/img/logo.png"
+            iconHeight: 35 
+
+outputs:
+    home:
+        - HTML
+        - RSS
+
+params:
+    env: production # to enable google analytics, opengraph, twitter-cards and schema.
+    title: Fora da Bancada
+    description: "Da bancada para a internet."
+    keywords: [Blog, Ciência]
+    author: Gil Oliveira
+    # author: ["Me", "You"] # multiple authors
+    #images: ["<link or path of image for opengraph, twitter-cards>"]
+    DateFormat: "January 2, 2006"
+    defaultTheme: auto # dark, light
+    disableThemeToggle: false
+
+    label:
+            
+
+    ShowReadingTime: true
+    ShowShareButtons: true
+    ShowPostNavLinks: true
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: false
+    disableSpecial1stPost: false
+    disableScrollToTop: false
+    comments: false
+    hidemeta: false
+    hideSummary: false
+    showtoc: false
+    tocopen: false
+
+    assets:
+        # disableHLJS: true # to disable highlight.js
+        disableFingerprinting: true
+        # favicon: "<link / abs url>"
+        # favicon16x16: "<link / abs url>"
+        # favicon32x32: "<link / abs url>"
+        # apple_touch_icon: "<link / abs url>"
+        # safari_pinned_tab: "<link / abs url>"
+
+    # label:
+    #     text: "Home"
+    #     icon: /apple-touch-icon.png
+    #     iconHeight: 35
+
+    # # profile-mode
+    # profileMode:
+    #     enabled: false # needs to be explicitly set
+    #     title: ExampleSite
+    #     subtitle: "This is subtitle"
+    #     imageUrl: "<img location>"
+    #     imageWidth: 120
+    #     imageHeight: 120
+    #     imageTitle: my image
+    #     buttons:
+    #         - name: Posts
+    #           url: posts
+    #         - name: Tags
+    #           url: tags
+
+    # home-info mode
+    homeInfoParams:
+        Title: "Fora da Bancada 🧪"
+        Content: Da bancada para a internet.
+
+    # socialIcons:
+    #     - name: twitter
+    #       url: "https://twitter.com/"
+    #     - name: stackoverflow
+    #       url: "https://stackoverflow.com"
+    #     - name: github
+    #       url: "https://github.com/"
+
+    # analytics:
+    #     google:
+    #         SiteVerificationTag: "XYZabc"
+    #     bing:
+    #         SiteVerificationTag: "XYZabc"
+    #     yandex:
+    #         SiteVerificationTag: "XYZabc"
+
+    cover:
+        hidden: true # hide everywhere but not in structured data
+        hiddenInList: true # hide on list pages and home
+        hiddenInSingle: true # hide on single page
+
+    # editPost:
+    #     URL: "https://github.com/<path_to_repo>/content"
+    #     Text: "Suggest Changes" # edit text
+    #     appendFilePath: true # to append file path to Edit link
+
+    # for search
+    # https://fusejs.io/api/options.html
+    fuseOpts:
+        isCaseSensitive: false
+        shouldSort: true
+        location: 0
+        distance: 1000
+        threshold: 0.4
+        minMatchCharLength: 0
+        keys: ["title", "permalink", "summary", "content"]
+
+    privacy:
+    vimeo:
+        disabled: false
+        simple: true
+
+    twitter:
+        disabled: false
+        enableDNT: true
+        simple: true
+
+    instagram:
+        disabled: false
+        simple: true
+
+    youtube:
+        disabled: false
+        privacyEnhanced: true
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+# pygmentsUseClasses: true
+# markup:
+#     highlight:
+#         # anchorLineNos: true
+#         codeFences: true
+#         guessSyntax: true
+#         lineNos: true
+#         style: monokai
