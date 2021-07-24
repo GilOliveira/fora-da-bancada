@@ -32,13 +32,16 @@ languages:
                 - name: Etiquetas
                   url: tags/
                   weight: 10
-                - name: Séries
-                  url: series/
-                  weight: 10
+                # - name: Séries
+                #   url: series/
+                #   weight: 10
         label:
             text: fora da bancada
             icon: "/img/logo.png"
-            iconHeight: 35          
+            iconHeight: 35
+        homeInfoParams:
+            Title: "Olá! 🧪"
+            Content: Este é o novo site do Fora da Bancada.        
 
     en:
         languageName: ":gb:"
@@ -82,10 +85,7 @@ params:
     #images: ["<link or path of image for opengraph, twitter-cards>"]
     DateFormat: "January 2, 2006"
     defaultTheme: auto # dark, light
-    disableThemeToggle: false
-
-    label:
-            
+    disableThemeToggle: false            
 
     ShowReadingTime: true
     ShowShareButtons: true
@@ -130,17 +130,13 @@ params:
     #           url: tags
 
     # home-info mode
-    homeInfoParams:
-        Title: "Fora da Bancada 🧪"
-        Content: Da bancada para a internet.
 
-    # socialIcons:
-    #     - name: twitter
-    #       url: "https://twitter.com/"
-    #     - name: stackoverflow
-    #       url: "https://stackoverflow.com"
-    #     - name: github
-    #       url: "https://github.com/"
+
+    socialIcons:
+        - name: rss
+          url: "index.xml"
+        - name: gitlab
+          url: "https://gitlab.com/GilOliveira/fora-da-bancada"
 
     # analytics:
     #     google:
