@@ -11,7 +11,7 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-description: "As perguntas sobre a vacina da COVID-19 que nunca tiveste coragem de fazer em voz alta."
+description: "Fala-se muito de efeitos secundários e de incertezas acerca da vacina da COVID-19, mas será que os benefícios superam os custos?"
 # canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true
 disableShare: false
@@ -46,13 +46,13 @@ Esses baixos números tendem ainda mais a diminuir à medida que mais gente é v
 
 Contas feitas, quem toma a vacina tem muito menos probabilidade de ficar doente, os poucos que ficam doentes têm muito menos probabilidade de terem de ser admitidos em hospital e, desses, praticamente nenhum morre. Pondo de parte o sensassionalismo e medo que vêm dos noticiários da noite e olhando para os números nús e crus, as vantagens das vacinas são imensas e imediatamente aparentes.
 
-Note-se que, para que as vacinas tenham o efeito pretendido, o paciente tem que ter a vacinação completa (ter todas as doses tomadas em vacinas com mais do que uma dose) e o corpo tem que ter tido tempo para formar defesas depois de administrada a vacina, geralmente após 15 dias. Muitos dos casos de infeção em vacinados adevém de um curso de vacinação por completar.
+Note-se que, para que as vacinas tenham o efeito pretendido, o paciente tem que ter a vacinação completa (ter todas as doses tomadas em vacinas com mais do que uma dose) e o corpo tem que ter tido tempo para formar defesas depois de administrada a vacina, geralmente após 15 dias. Muitos dos casos de infeção em vacinados advém de um curso de vacinação por completar.
 
 ## Vou ter efeitos secundários graves da vacina?
 
-Quando ponderamos os efeitos secundários da vacina algo que nos pesa o outro prato da balança são sempre os efeitos secundários. As vacinas, como qualquer medicamento eficaz, tem efeitos secundários associados. Chamam-se efeitos secundários ao conjunto de efeitos provenientes da vacina que não sejam a da geração de imunidade.
+Quando ponderamos se devemos ser vacinados, algo que nos pesa o outro prato da balança são sempre os efeitos secundários. Dá-se este nome ao conjunto de reações provenientes da vacina que não sejam a da geração de imunidade, todos os fármacos eficazes os têm e as vacinas não são exceção.
 
-A esmagadora maioria das pessoas terá poucos ou nenhuns efeitos secundários, uma vez que as vacinas, por serem administradas a pessoas saudáveis, têm estritos requisitos de segurança e eficácia, sendo que os resultados da investigação são disponibilizados publicamente e revistos por paineis de especialistas independentes e por agências internacionais e governamentais.
+A esmagadora maioria das pessoas terá poucos ou nenhuns efeitos desses, uma vez que as vacinas, por serem administradas a pessoas saudáveis, têm estritos requisitos de segurança e eficácia, sendo que os resultados da investigação são disponibilizados publicamente e revistos por paineis de especialistas independentes e por agências internacionais e governamentais.
 
 Os efeitos secundários, geralmente leves e pouco duradouros, são uma consequência da própria eficácia da vacina, uma vez que são consequência do nosso sistema imunitário a detetar a entrada da vacina no organismo e a gerar defesas para o combater, algo que é essencial para que se adquira memória imunitária contra o vírus da COVID-19. Por isso é que sintomas como dor de cabeça e dor localizada são entre os mais comuns, uma vez que são os sintomas típicos de uma infeção viral como uma gripe. Esses sintomas passam muito rapidamente porque a vacina não traz a doença em si e por isso não chegamos a ficar efetivamente doentes.
 
