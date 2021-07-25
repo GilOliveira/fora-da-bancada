@@ -39,18 +39,18 @@ languages:
             text: fora da bancada
             icon: "/img/logo.png"
             iconHeight: 35
-        homeInfoParams:
-            Title: "Olá! 🧪"
-            Content: Este é o novo site do Fora da Bancada.        
+        # homeInfoParams:
+        #     Title: "Olá! 🧪"
+        #     Content: Este é o novo site do Fora da Bancada.        
 
     en:
         languageName: ":gb:"
         languageAltTitle: English
         weight: 2
         title: Out of the Bench
-        homeInfoParams:
-            Title: "Out of the Bench"
-            Content: From the Bench to the Web
+        # homeInfoParams:
+        #     Title: "Out of the Bench"
+        #     Content: From the Bench to the Web
         menu:
             main:
                 - name: Archive
