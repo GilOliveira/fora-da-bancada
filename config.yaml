@@ -1,7 +1,7 @@
 baseURL: "https://foradabancada.pt/"
 title: Fora da Bancada
 paginate: 5
-theme: PaperMod
+theme: [PaperMod, matomo]
 
 defaultContentLanguage: pt
 
@@ -193,3 +193,8 @@ params:
 #         guessSyntax: true
 #         lineNos: true
 #         style: monokai
+
+    matomo:
+      url: "https://analytics.gil.is/"
+      id: 1
+
