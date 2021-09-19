@@ -2,7 +2,7 @@
 
 a.k.a. **Out of the Bench**
 
-This is the source code used to build my personal blog. Available at [giloliveira.net](https://giloliveira.net).
+This is the source code used to build my personal blog. Available at [foradabancada.pt](https://foradabancada.pt)
 
 Main repository is available at [GitLab](https://gitlab.com/GilOliveira/fora-da-bancada).
 
