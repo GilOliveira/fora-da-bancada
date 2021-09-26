@@ -6,12 +6,12 @@ date: 2020-07-31
 author: "Gil Oliveira"
 #tags: ["COVID-19", "vacinas", "explicado", "custos-beneficios"]
 #categories: ["COVID-19","vacinas"]
-showToc: true
+showToc: false
 TocOpen: false
 draft: false
 hidemeta: true
 comments: false
-description: "Informação sobre dados analíticos"
+description: "Informação e escolhas sobre a tua privacidade neste site."
 # canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true
 disableShare: true

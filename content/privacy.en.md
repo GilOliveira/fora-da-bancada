@@ -1,17 +1,17 @@
 ---
-title: "Privacidade"
+title: "Privacy"
 date: 2020-07-31
 # weight: 1
 #aliases: ["/a/vacina-custos-beneficios"]
 author: "Gil Oliveira"
 #tags: ["COVID-19", "vacinas", "explicado", "custos-beneficios"]
 #categories: ["COVID-19","vacinas"]
-showToc: true
+showToc: false
 TocOpen: false
 draft: false
 hidemeta: true
 comments: false
-description: "Informação sobre dados analíticos"
+description: "Information and choices regarding your privacy on this website."
 # canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true
 disableShare: true
