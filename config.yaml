@@ -1,7 +1,7 @@
 baseURL: "https://foradabancada.pt/"
 title: Fora da Bancada
 paginate: 5
-theme: PaperMod
+theme: [PaperMod, matomo]
 
 defaultContentLanguage: pt
 
@@ -11,6 +11,8 @@ buildFuture: false
 buildExpired: false
 
 # googleAnalytics: UA-123-45
+
+copyright: <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
 
 minify:
     disableXML: true
@@ -39,6 +41,16 @@ languages:
             text: fora da bancada
             icon: "/img/logo.png"
             iconHeight: 35
+        matomo:
+            url: "https://analytics.gil.is/"
+            id: 1
+            track:
+                button: ☑️ Consentir rastreamento
+                message: Rastreamento permitido 🟢
+            block:
+                button: ❌ Recusar rastreamento
+                message: Rastreamento recusado 🔴
+
         # homeInfoParams:
         #     Title: "Olá! 🧪"
         #     Content: Este é o novo site do Fora da Bancada.        
@@ -68,7 +80,16 @@ languages:
         label:
             text: out of the bench
             icon: "/img/logo.png"
-            iconHeight: 35 
+            iconHeight: 35
+        matomo:
+            url: "https://analytics.gil.is/"
+            id: 1
+            track:
+                button: ☑️ Allow tracking
+                message: Tracking allowed 🟢
+            block:
+                button: ❌ Refuse tracking
+                message: Tracking refused 🔴
 
 outputs:
     home:
