@@ -27,13 +27,16 @@ languages:
             main:
                 - name: Pesquisa
                   url: search/
-                  weight: 10
+                  weight: 30
                 - name: Categorias
                   url: categories/
                   weight: 10
                 - name: Etiquetas
                   url: tags/
-                  weight: 10
+                  weight: 20
+                - name: Autor
+                  url: https://giloliveira.net/
+                  weight: 40
                 # - name: Séries
                 #   url: series/
                 #   weight: 10
@@ -73,10 +76,13 @@ languages:
                   weight: 10
                 - name: Categories
                   url: categories
-                  weight: 10
+                  weight: 20
                 - name: Series
                   url: series
-                  weight: 10
+                  weight: 30
+                - name: Author
+                  url: https://giloliveira.net/
+                  weight: 40
         label:
             text: out of the bench
             icon: "/img/logo.png"
